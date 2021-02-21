@@ -75,7 +75,6 @@ function initSetVillageNote() {
 				.rows[1].cells[1].getElementsByTagName('span')[0]
 				.getAttribute('data-id');
 		}
-
 		noteText = '[b]' + reportTime + '[/b]';
 		noteText += '\n' + $('#report_export_code')[0].innerHTML;
 		
